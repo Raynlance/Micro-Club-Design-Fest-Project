@@ -48,7 +48,8 @@
 
  .MENU-HOLDER {
     position:relative;
-    border: 1px solid red;
+    
+    
 }
  
 
@@ -58,12 +59,37 @@
      visibility:hidden;
      position:absolute;
      padding:0;
+     
+     
 }
 
 .MENU-HOLDER:hover .DETAILS-LIST
 {
     visibility:visible;
+    background-color:var(--light);
+    color:var(--dark);
+    
 }
+
+#HOME
+{
+    margin:auto;
+    height:100vh;
+    background-image: url(./images/background.jpg), linear-gradient(to top, #0b0016 16%, rgba(49, 19, 131, 0.562) 51%, transparent);
+    background-blend-mode:overlay;
+
+    background-size:cover;
+    
+}
+
+section
+{
+    display:flex;
+    flex-direction:column;
+    padding:var(--sidePadding);
+}
+
+
 
 
 
