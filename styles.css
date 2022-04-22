@@ -1,0 +1,75 @@
+ 
+ 
+ *{
+     box-sizing: border-box;
+ }
+ :root{
+    --primary: #ffbd00;
+    --secondary: #ff60ce;
+    --background: #0b0016;
+    --grey: #9b9eac;
+    --light: #fff;
+    --dark:#0a0a0a;
+    --main-font:'Mitr', sans-serif;
+    --secondary-font: 'Barlow', sans-serif;
+    --sidePadding: 12%;
+ }
+ body{
+    margin: 0;
+    background-color: var(--background);
+    color: var(--grey);
+    width: 100%;
+ }
+
+ #MC-TOP-LOGO
+ {
+    width:6em;
+ }
+
+ nav
+ {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+ }
+
+ #NAVIGATION-MENU
+ {
+     display:flex;
+     flex-direction: row;
+     justify-content:space-evenly;
+     margin-left:auto;
+ }
+
+ .NAVIGATION-ELEMENTS
+ {
+     margin: 1em;
+ }
+
+ .MENU-HOLDER {
+    position:relative;
+    border: 1px solid red;
+}
+ 
+
+ .DETAILS-LIST
+{
+     list-style: none;
+     visibility:hidden;
+     position:absolute;
+     padding:0;
+}
+
+.MENU-HOLDER:hover .DETAILS-LIST
+{
+    visibility:visible;
+}
+
+
+
+ 
+
+ 
+ 
+
+
