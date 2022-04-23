@@ -71,6 +71,7 @@
     
 }
 
+
 #HOME
 {
     margin:auto;
@@ -87,6 +88,7 @@ section
     display:flex;
     flex-direction:column;
     padding:var(--sidePadding);
+    width:100%;
 }
 
 h1, h2, h3, h4, h5, h6
@@ -100,11 +102,112 @@ h1
     width:11.5ch;
 }
 
+h3
+{
+    color:var(--secondary);
+    font-size:2.2rem;
+}
+
+h2
+{
+    font-size:2em;
+}
+
 header > section{
     display:flex;
     flex-direction:column;
     justify-content:center;
 }
+
+#DATE-PLACE
+{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-end;
+    width:100%;
+}
+
+a
+{
+    text-decoration:none;
+    color:var(--light);
+}
+
+#ABOUT-DESIGN-FEST 
+{
+    display: flex;
+    flex-direction: row;
+}
+#ABOUT-DESIGN-FEST-TEXT-AND-BUTTON 
+{
+    width:50%;
+}
+
+#ABOUT-DESIGN-FEST-TEXT-AND-BUTTON h2
+{
+width:15ch;
+
+}
+
+
+#ABOUT-DESIGN-FEST-PARAGRAPHS
+{
+    width: 50%;
+}
+
+p
+{
+    font-size:1.5em;
+}
+#ABOUT-DESIGN-FEST-CONTAINERS
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+/*----------------SPEAKERS-BELOW----------------*/
+
+#SPEAKERS-CAROUSEL
+{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.SPEAKER
+{
+    padding:0 0.5em;
+}
+
+.SPEAKER-FACE
+{
+    position: relative;
+}
+
+.SPEAKER-FACE:hover
+{
+    transform:scale(1.2,1.2)
+
+}
+
+.SPEAKER-SOCIALS a
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.SPEAKER-SOCIAL
+{
+    width: 12%;
+position:absolute;
+top:0;
+
+}
+
+/*----------DETAILS----------------------*/
 
 
  
