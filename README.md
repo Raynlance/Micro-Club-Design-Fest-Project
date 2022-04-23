@@ -1,3 +1,3 @@
 # Welcome to my design fest project.
 
-Micro Club Static Website Submission.
+Extremely short on time for this one, i'll have to redesign it again from the ground up. Nevertheless, i shall commit.
